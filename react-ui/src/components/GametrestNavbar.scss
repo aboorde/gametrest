@@ -1,0 +1,27 @@
+
+
+.GametrestNavbar {
+  background-color: rgb(87, 87, 87);
+  padding: 20px 30px;
+  color: white;
+
+  &__logo {
+    animation: GametrestNavbar-logo-spin infinite 20s linear;
+    height: 80px;
+  }
+
+  &__title {
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+  }
+
+  button {
+    float: right;
+  }
+} 
+
+@keyframes GametrestNavbar-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
